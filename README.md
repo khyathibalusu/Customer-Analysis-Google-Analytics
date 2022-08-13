@@ -1,35 +1,30 @@
-## Google Analytics Project 
+## Customer Acquisition using Google Analytics
  
 
-### Introduction: 
+### Context: 
 
-Companies big or small should always leverage the data they have about the customers to improve their experience, target new customers etc.
-The goal of this project was to help management of a solar energy based start-up to understand factors influencing sign-ups. 
+Partnered with a newly launched tech-driven stealth startup company looking to understand their web visitors and channelize their marketing spend efficiently.
 
 ### Data source : 
 
-There are two different datasets.
-1. 4 months of data scrapped from google analytics - summary level data
-2. Individual level data from a third-party.
+1. Summary level demographic data scraped using Google Analytics API 
+2. Granular data retrieved from the firm's third party partner
 
-### Technologies: 
+### Tech Stack used: 
 
-Python 3.7.3, Big Query 
+Google Analytics, APIs, Python, R, Data Analysis, Machine Learning, Google Colab, BigQuery
 
-### Algorithms :
+### Algorithms used :
 
 1.	Logistic Regression
 2.	Random Forest
 3.	XGboost
 
 ### Approach :
+Devised a Classification model using Logistic Regression to identify the key factors influencing customers signup, based on historical data. Due to stakeholder being fairly new to the market, data availability and extraction was challenging.
 
-1.	Summary level data – This data has a behavioral features like bounce rate, exit rate, referres etc
-  ..*	Used tableau to understand trends in the data and derive insights
-  ..*	Using logistic regression, random forest and XGboost to understand important features
-2.	Individual level data – This is the data from the third party. The data has features like – 
-  ..*	Used logistic regression and random forest to understand feature importances
+### Impact :
 
-### Reccomendations :
+Identified potential sign up drivers and  important features that drive conversions by analysis of  historic summary level demographics; Helped the company focus on marketing channels, optimization of web design and content to increase the number of sign up. 
 
-The company should go ahead and use a third party vendor to get the data as it is economical. Recommended marketing channels which will boost number of sign-ups.
+
