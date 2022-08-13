@@ -1,4 +1,5 @@
 ## Customer Acquisition using Google Analytics
+Blog Post: https://medium.com/@aadianand28/identifying-potential-customers-using-google-analytics-data-d4662dd97ed
  
 
 ### Context: 
